@@ -1,0 +1,99 @@
+2024-10-10 21:17:18.253 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-10 21:17:18.353 +06:00 [DBG] Hosting starting
+2024-10-10 21:17:18.730 +06:00 [INF] Now listening on: https://localhost:7078
+2024-10-10 21:17:18.732 +06:00 [INF] Now listening on: http://localhost:5129
+2024-10-10 21:17:18.733 +06:00 [DBG] Loaded hosting startup assembly WebSeriLogApi
+2024-10-10 21:17:18.734 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-10 21:17:18.736 +06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-10 21:17:18.737 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-10 21:17:18.790 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-10 21:17:18.792 +06:00 [INF] Hosting environment: Development
+2024-10-10 21:17:18.793 +06:00 [INF] Content root path: D:\TestProject\StructredLog\WebSeriLogApi
+2024-10-10 21:17:18.794 +06:00 [DBG] Hosting started
+2024-10-10 21:17:19.203 +06:00 [DBG] Connection id "0HN797QGT7LJQ" accepted.
+2024-10-10 21:17:19.203 +06:00 [DBG] Connection id "0HN797QGT7LJP" accepted.
+2024-10-10 21:17:19.207 +06:00 [DBG] Connection id "0HN797QGT7LJQ" started.
+2024-10-10 21:17:19.208 +06:00 [DBG] Connection id "0HN797QGT7LJP" started.
+2024-10-10 21:17:19.221 +06:00 [DBG] Connection id "0HN797QGT7LJQ" received FIN.
+2024-10-10 21:17:19.221 +06:00 [DBG] Connection id "0HN797QGT7LJP" received FIN.
+2024-10-10 21:17:19.231 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-10 21:17:19.231 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-10 21:17:19.283 +06:00 [DBG] Connection id "0HN797QGT7LJP" stopped.
+2024-10-10 21:17:19.283 +06:00 [DBG] Connection id "0HN797QGT7LJQ" stopped.
+2024-10-10 21:17:19.288 +06:00 [DBG] Connection id "0HN797QGT7LJQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-10 21:17:19.288 +06:00 [DBG] Connection id "0HN797QGT7LJP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-10 21:17:20.730 +06:00 [DBG] Connection id "0HN797QGT7LJR" accepted.
+2024-10-10 21:17:20.737 +06:00 [DBG] Connection id "0HN797QGT7LJR" started.
+2024-10-10 21:17:20.826 +06:00 [DBG] Connection 0HN797QGT7LJR established using the following protocol: "Tls13"
+2024-10-10 21:17:21.021 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger - null null
+2024-10-10 21:17:21.097 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-10 21:17:21.129 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger - 301 0 null 123.2498ms
+2024-10-10 21:17:21.560 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/index.html - null null
+2024-10-10 21:17:21.613 +06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-10 21:17:21.629 +06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-10 21:17:21.631 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/index.html - 200 null text/html;charset=utf-8 70.5443ms
+2024-10-10 21:17:21.673 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/swagger-ui.css - null null
+2024-10-10 21:17:21.673 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-10 21:17:21.673 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/swagger-ui-standalone-preset.js - null null
+2024-10-10 21:17:21.673 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/swagger-ui-bundle.js - null null
+2024-10-10 21:17:21.689 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 16.1006ms
+2024-10-10 21:17:21.718 +06:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-10-10 21:17:21.725 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/swagger-ui.css - 200 143943 text/css 52.2743ms
+2024-10-10 21:17:21.727 +06:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-10-10 21:17:21.732 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 58.8932ms
+2024-10-10 21:17:21.745 +06:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-10-10 21:17:21.746 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 73.2525ms
+2024-10-10 21:17:21.967 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - null null
+2024-10-10 21:17:22.059 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/favicon-32x32.png - null null
+2024-10-10 21:17:22.064 +06:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-10-10 21:17:22.070 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/favicon-32x32.png - 200 628 image/png 10.6286ms
+2024-10-10 21:17:22.127 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 160.8794ms
+2024-10-10 21:17:22.797 +06:00 [DBG] Connection id "0HN797QGT7LJR" received FIN.
+2024-10-10 21:17:22.802 +06:00 [DBG] The connection queue processing loop for 0HN797QGT7LJR completed.
+2024-10-10 21:17:22.805 +06:00 [DBG] Connection id "0HN797QGT7LJR" is closed. The last processed stream ID was 15.
+2024-10-10 21:17:22.808 +06:00 [DBG] Connection id "0HN797QGT7LJR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-10 21:17:22.821 +06:00 [DBG] Connection id "0HN797QGT7LJR" stopped.
+2024-10-10 21:18:01.723 +06:00 [DBG] Connection id "0HN797QGT7LJS" accepted.
+2024-10-10 21:18:01.730 +06:00 [DBG] Connection id "0HN797QGT7LJS" started.
+2024-10-10 21:18:01.736 +06:00 [DBG] Connection 0HN797QGT7LJS established using the following protocol: "Tls13"
+2024-10-10 21:18:01.742 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7078/api/Sample/SubmitForm - application/json 67
+2024-10-10 21:18:01.746 +06:00 [DBG] POST requests are not supported
+2024-10-10 21:18:01.769 +06:00 [DBG] 1 candidate(s) found for the request path '/api/Sample/SubmitForm'
+2024-10-10 21:18:01.774 +06:00 [DBG] Endpoint 'WebSeriLogApi.Controllers.SampleController.SubmitForm (WebSeriLogApi)' with route pattern 'api/Sample/SubmitForm' is valid for the request path '/api/Sample/SubmitForm'
+2024-10-10 21:18:01.775 +06:00 [DBG] Request matched endpoint 'WebSeriLogApi.Controllers.SampleController.SubmitForm (WebSeriLogApi)'
+2024-10-10 21:18:01.780 +06:00 [INF] Executing endpoint 'WebSeriLogApi.Controllers.SampleController.SubmitForm (WebSeriLogApi)'
+2024-10-10 21:18:01.808 +06:00 [INF] Route matched with {action = "SubmitForm", controller = "Sample"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SubmitForm(WebSeriLogApi.Models.UserInputModel) on controller WebSeriLogApi.Controllers.SampleController (WebSeriLogApi).
+2024-10-10 21:18:01.812 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-10 21:18:01.814 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-10 21:18:01.816 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-10 21:18:01.818 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-10 21:18:01.820 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-10 21:18:01.823 +06:00 [DBG] Executing controller factory for controller WebSeriLogApi.Controllers.SampleController (WebSeriLogApi)
+2024-10-10 21:18:01.825 +06:00 [DBG] Executed controller factory for controller WebSeriLogApi.Controllers.SampleController (WebSeriLogApi)
+2024-10-10 21:18:01.840 +06:00 [DBG] Attempting to bind parameter 'model' of type 'WebSeriLogApi.Models.UserInputModel' ...
+2024-10-10 21:18:01.845 +06:00 [DBG] Attempting to bind parameter 'model' of type 'WebSeriLogApi.Models.UserInputModel' using the name '' in request data ...
+2024-10-10 21:18:01.849 +06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-10 21:18:01.855 +06:00 [DBG] Connection id "0HN797QGT7LJS", Request id "0HN797QGT7LJS:00000001": started reading request body.
+2024-10-10 21:18:01.857 +06:00 [DBG] Connection id "0HN797QGT7LJS", Request id "0HN797QGT7LJS:00000001": done reading request body.
+2024-10-10 21:18:01.863 +06:00 [DBG] JSON input formatter succeeded, deserializing to type 'WebSeriLogApi.Models.UserInputModel'
+2024-10-10 21:18:01.865 +06:00 [DBG] Done attempting to bind parameter 'model' of type 'WebSeriLogApi.Models.UserInputModel'.
+2024-10-10 21:18:01.867 +06:00 [DBG] Done attempting to bind parameter 'model' of type 'WebSeriLogApi.Models.UserInputModel'.
+2024-10-10 21:18:01.868 +06:00 [DBG] Attempting to validate the bound parameter 'model' of type 'WebSeriLogApi.Models.UserInputModel' ...
+2024-10-10 21:18:01.875 +06:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'WebSeriLogApi.Models.UserInputModel'.
+2024-10-10 21:18:01.884 +06:00 [INF] Received input from user: {"Email":"hasan_mcse@gmail.com","Password":"Hasnahgakjsa","$type":"UserInputModel"}
+2024-10-10 21:18:01.888 +06:00 [WRN] Password provided for user: hasan_mcse@gmail.com
+2024-10-10 21:18:01.890 +06:00 [WRN] Mask Email provided for user: h****@gmail.com
+2024-10-10 21:18:01.894 +06:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-10-10 21:18:01.899 +06:00 [INF] Executed action WebSeriLogApi.Controllers.SampleController.SubmitForm (WebSeriLogApi) in 75.138ms
+2024-10-10 21:18:01.902 +06:00 [INF] Executed endpoint 'WebSeriLogApi.Controllers.SampleController.SubmitForm (WebSeriLogApi)'
+2024-10-10 21:18:01.903 +06:00 [INF] Request finished HTTP/2 POST https://localhost:7078/api/Sample/SubmitForm - 200 0 null 161.3971ms
